@@ -1,4 +1,4 @@
-# jenkins_pipe_template
+# {{project_name}}
 
 ## How to use
 - For more information, please go to [codegen](https://github.com/cao5zy/codegen)
@@ -20,12 +20,12 @@ pip install md-codegen
 ### Prepare your workspace
 ```
 git clone <repo-for-templates>.git
-cd <name-of-repo>
+cd {{project_name}}
 ```
 ### Run
 ```
 bash run.bat
 ```
-After the running, please check the generated file at `<name-of-repo>/test/`
+After the running, please check the generated file at `{{project_name}}/test/`
 
 
